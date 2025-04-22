@@ -1,3 +1,16 @@
+Algorithm of naive string matching
+1. n ← length [T] 
+2. m ← length [P] 
+3. for s ← 0 to n -m 
+4. do if P [1.....m] = T [s + 1....s + m] 
+5. then print "Pattern occurs with shift" s 
+
+
+
+
+
+
+
 Program of NAive string matching algorithm
 #include <stdio.h> 
 #include <string.h> 
