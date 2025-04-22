@@ -1,13 +1,21 @@
 LCS-LENGTH(X.Y)
 
 m <- length[X]
+
 2 n <-length[Y]
+
 for i <-1 tom
+
 do c[i. 0] <-0
+
 for j <-0 to n
+
 do c[0. j] <-0
+
 for i <- 1 to m
+
 do for j <- 1 to n
+
 do if x; m yj
 then c[i. j] <cli-1,j-1]+1
 b[i. j] -" slash arrow "
