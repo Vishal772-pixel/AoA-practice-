@@ -1,0 +1,19 @@
+
+
+
+
+
+
+
+
+
+
+
+
+Time Complexity of naive string matching algorithm
+Best Case: O(n) 
+● When the pattern is found at the very beginning of the text (or very early on). ● The algorithm will perform a constant number of comparisons, typically on the order of O(n) comparisons, where n is the length of the pattern. 
+Worst Case: O(n^2) 
+● When the pattern doesn’t appear in the text at all or appears only at the very end. ● The algorithm will perform O((n-m+1)*m) comparisons, where n is the length of the text and m is the length of the pattern. 
+● In the worst case, for each position in the text, the algorithm may need to compare the entire pattern against the text. 
+● Naive algorithm for Pattern Searching 
